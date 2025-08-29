@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "Jordan McWilliams"
   avatar           : "/assets/images/JordanMcWilliamsHeadshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "Software Engineer \n Unreal Engine Developer \n Indie Game Developer"
   location         : "Los Angeles, CA"
   email            : "jordanmcwilliams23@gmail.com"
   links:

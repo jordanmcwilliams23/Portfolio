@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# PlayStation
-
 ## Overview
 
 My time working at Sony Interactive Entertainment (referred to as PlayStation throughout) has been nothing short of phenomenal. I am so proud to have contributed to such an incredible team full of talented, caring, and helpful people. My team's name is **Game Validation & Integration Platform (GVIP)**, responsible for integrating and testing developmental features of the PlayStation for PC (PSPC) SDK within our propietary flagship game.
