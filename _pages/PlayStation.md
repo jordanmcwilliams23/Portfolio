@@ -11,4 +11,8 @@ My time working at Sony Interactive Entertainment (referred to as PlayStation th
 
 ## My Work
 
-My work as a Software Engineer primarily focused on integrating features, upgrading our game's Unreal Engine version, debugging faulty features, and code maintainance.
+My work as a Software Engineer primarily focused on:
+- integrating features
+- upgrading our game's Unreal Engine version
+- debugging faulty features
+- code maintainance
