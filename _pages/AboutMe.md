@@ -11,5 +11,4 @@ Hello! I'm an experience Software Engineer and Unreal Engine Developer specializ
 ## Resume 
 
 /assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf
-<iframe src="/assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf" width="100%" height="600px"></iframe>
-[Download Resume](/assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf)
+<object data="/assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf" width="1000" height="1000" type='application/pdf'></object>
