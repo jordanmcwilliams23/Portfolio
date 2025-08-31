@@ -19,7 +19,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "Jordan McWilliams Portfolio"
 title_separator          : "|"
-subtitle                 : "Version 0.1" # site tagline that appears below site title in masthead
+subtitle                 : "Game Development & Software Engineering" # site tagline that appears below site title in masthead
 name                     : "Jordan McWilliams"
 description              : "A peek into my work, achievements, and personality"
 url                      : "https://jordanmcwilliams23.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
