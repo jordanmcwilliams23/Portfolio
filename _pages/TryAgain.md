@@ -21,8 +21,8 @@ gallery:
     image_path: /assets/images/TryAgainGameTitle.png
     alt: "Try Again Game Title"
     title: "In-Game Title Screen"
-  - url: /assets/images/TryAgainGameTeam.jpg
-    image_path: /assets/images/TryAgainGameTeam.jpg
+  - url: /assets/images/TryAgainGameTeam.png
+    image_path: /assets/images/TryAgainGameTeam.png
     alt: "Try Again Team"
     title: "Try Again Team"
 ---
