@@ -11,6 +11,8 @@ My time working at Sony Interactive Entertainment (referred to as PlayStation th
 <img src= "assets/images/CardboardPS5.jpg" alt="Cardboard PS5">
 {% include figure image_path="/assets/images/CardboardPS5.JPG" alt="Cardboard PS5" %}
 
+<img src= "assets/images/CyberDocRogueKeyArt.png" alt="Cyberdoc Rogue">
+
 ## My Work
 
 My work as a Software Engineer primarily focuses on:
