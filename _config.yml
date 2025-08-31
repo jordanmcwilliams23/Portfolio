@@ -121,7 +121,7 @@ author:
   location         : "Los Angeles, CA"
   email            : #"jordanmcwilliams23@gmail.com"
   links:
-    - label: "Email"
+    - label: "Email Me"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:jordanmcwilliams23@gmail.com"
     - label: "Resume"
@@ -137,9 +137,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Email"
+    - label: "Email Me"
       icon: "fas fa-fw fa-envelope-square"
-      url: "jordanmcwilliams23@gmail.com"
+      url: "mailto:jordanmcwilliams23@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-link"
       url: "/Portfolio/AboutMe/#resume"

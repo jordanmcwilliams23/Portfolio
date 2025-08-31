@@ -4,6 +4,10 @@ main:
     url: /AboutMe/
   - title: "PlayStation"
     url: /PlayStation/
+  - title: "Try Again"
+    url: /TryAgain/
+  - title: "Refactor Games"
+    url: /RefactorGames/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
