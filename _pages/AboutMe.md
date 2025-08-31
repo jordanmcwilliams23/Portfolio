@@ -10,4 +10,4 @@ Hello! I'm an experience Software Engineer and Unreal Engine Developer specializ
 
 ## Resume 
 
-<iframe src="/assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf" width="100%" height="600px"></iframe>
+<iframe src="jordanmcwilliams23/Portfolio/assets/files/Jordan_McWilliams_Software_Engineer_Resume.pdf" width="100%" height="600px"></iframe>
