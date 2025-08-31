@@ -123,7 +123,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "jordanmcwilliams23@gmail.com"
+      url: "mailto:jordanmcwilliams23@gmail.com"
     - label: "Resume"
       icon: "fas fa-fw fa-link"
       url: "/Portfolio/AboutMe/#resume"
