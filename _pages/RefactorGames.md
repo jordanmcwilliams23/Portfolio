@@ -10,7 +10,7 @@ author_profile: true
 Role: Gameplay Engineer Intern
 <iframe src="https://store.steampowered.com/widget/2131360/" frameborder="0" width="646" height="190"></iframe>
 
-##My Work
+## My Work
 
 ### Arena
 - I significantly enhanced the runtime performance of a cooperative Arena Gamemode, boosting the frame rate from approximately 35 fps to roughly 77 fps, marking an increase of 220%. This enhancement was achieved by minimizing redundant 'Get All Actors of Class' calls, eliminating unnecessary function calls, and optimizing logic executed during Event Tick. Additionally, key sections of C++ code were rewritten for improved efficiency.
@@ -20,7 +20,7 @@ Role: Gameplay Engineer Intern
 <iframe src="https://drive.google.com/file/d/1BHpvTbsihrpH7hf3yPegcqHlsi2_29LQ/preview" width="640" height="480" allow="autoplay"></iframe>
 
 ### Level Design
-- I created a town reminiscent of the 1800s medieval era with a Tim Burton-like aesthetic, named Tombsteel. This town showcases a vast commoners' graveyard at the base level and an elevated, affluent graveyard near a church on a hilltop. My main focus was to ensure that the play areas were expansive enough to support multiplayer gameplay and mechanics, while still preserving the town's somber and gloomy ambiance. Additionally, the town boasts a mausoleum where a deranged necromancer conducted experiments on cadavers, a fittingly designed building that I constructed myself.
+- I created a town named Tombsteel reminiscent of the 1800s medieval era with a Tim Burton-like aesthetic. This town showcases a vast commoners' graveyard at the base level and an elevated, affluent graveyard near a church on a hilltop. My main focus was to ensure that the play areas were expansive enough to support multiplayer gameplay and mechanics, while still preserving the town's somber and gloomy ambiance. Additionally, the town boasts a mausoleum where a deranged necromancer conducted experiments on cadavers, a fittingly designed building that I constructed myself.
 <iframe src="https://drive.google.com/file/d/17fh-4tfHqIr7HwzdLHA1cp1qq2Lc4qJ4/preview" width="640" height="480" allow="autoplay"></iframe>
 - Built a large-scale PvP map intended for "Capture the Flag" gamemode with two team bases, traversable underground tunnels, and multiple fun engagement points.
 <iframe src="https://drive.google.com/file/d/15vBVniBD94NzNrAPzuOg1iu6VE4GDsHs/preview" width="640" height="480" allow="autoplay"></iframe>
