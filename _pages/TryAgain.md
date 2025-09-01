@@ -3,6 +3,8 @@ title: "Try Again"
 permalink: /TryAgain/
 layout: single
 author_profile: true
+header:
+    image: /assets/images/TryAgainHeader.jpg
 
 gallery:
   - url: /assets/images/TryAgainGame.png
@@ -27,7 +29,6 @@ gallery:
     title: "Try Again Team"
 ---
 
-# Check it out on Steam
 # *Over 35K downloads with Overwhelmingly Positive reviews*
 <iframe src="https://store.steampowered.com/widget/2448340/" frameborder="0" width="646" height="190"></iframe>
 
