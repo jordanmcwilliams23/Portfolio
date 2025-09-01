@@ -11,8 +11,8 @@ main:
   - title: "Projects"
     url: /Projects/
     children:
-      - title: "Nuclear Family"
-        url: /Projects/NuclearFamily/
+    - title: "Nuclear Family"
+      url: /Projects/NuclearFamily/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
