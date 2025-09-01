@@ -5,9 +5,7 @@ layout: single
 author_profile: true
 ---
 
-![Headshot](/assets/images/JordanMcWilliamsHeadshot.jpg){: .align-right}
-{% include figure popup=true image_path="/assets/images/JordanMcWilliamsHeadshot.jpg" alt="Jordan McWilliams" %}
-<img src="/assets/images/JordanMcWilliamsHeadshot.jpg" alt="Jordan McWilliams" style="float: right; margin: 0 0 1em 1em; width: 300px;">
+<img src="/assets/images/JordanMcWilliamsHeadshot.jpg" alt="Jordan McWilliams" style="float: right; margin: 0 0 1em 1em; width: 300px; height: 400px; ">
 Hello! I'm an experience Software Engineer and Unreal Engine Developer specializing in Gameplay programming. My dream is to one day found a game dev studio where I can bring ideas to life alongside other talented developers. I enjoy playing the bass guitar, exercising, and new experiences.
 
 # Resume 
