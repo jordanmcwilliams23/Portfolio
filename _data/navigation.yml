@@ -10,12 +10,5 @@ main:
     url: /RefactorGames/
   - title: "Projects"
     url: /Projects/
-    children:
-    - title: "Nuclear Family"
-      url: /Projects/NuclearFamily/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Nuclear Family"
+    url: /NuclearFamily/
