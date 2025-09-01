@@ -1,6 +1,6 @@
 ---
 title: "Nuclear Family"
-permalink: /Projects/NuclearFamily/
+permalink: /NuclearFamily/
 layout: single
 author_profile: true
 ---
