@@ -1,0 +1,95 @@
+/* ==========================================================================
+   DROPDOWN MENU STYLES FOR MASTHEAD NAVIGATION
+   Matches Minimal Mistakes Dark Skin Colors
+   ========================================================================== */
+
+/* Hide dropdown submenus by default */
+.masthead__menu .submenu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #252a34; /* Dark skin background color */
+  border: 1px solid #565656; /* Dark skin border color (mix of white and background) */
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Position parent menu items with submenus as relative */
+.masthead__menu-item.has-submenu {
+  position: relative;
+}
+
+/* Show dropdown on hover or focus */
+.masthead__menu-item.has-submenu:hover .submenu,
+.masthead__menu-item.has-submenu:focus-within .submenu {
+  display: block;
+}
+
+/* Style submenu items */
+.masthead__menu .submenu li {
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #565656;
+}
+
+.masthead__menu .submenu li:last-child {
+  border-bottom: none;
+}
+
+/* Style submenu links */
+.masthead__menu .submenu a {
+  display: block;
+  padding: 0.75em 1em;
+  color: #eaeaea; /* Dark skin text color */
+  text-decoration: none;
+  font-size: 0.9em;
+  line-height: 1.4;
+  transition: all 0.2s ease;
+}
+
+/* Submenu link hover effects */
+.masthead__menu .submenu a:hover {
+  background-color: #00adb5; /* Dark skin primary color */
+  color: #ffffff;
+}
+
+/* Ensure submenu doesn't interfere with layout */
+.masthead__menu .submenu {
+  box-sizing: border-box;
+}
+
+/* Add subtle hover indication to parent menu items with submenus */
+.masthead__menu-item.has-submenu > a::after {
+  content: " ▼";
+  font-size: 0.7em;
+  opacity: 0.7;
+  margin-left: 0.5em;
+}
+
+/* Media query for responsive behavior */
+@media (max-width: 768px) {
+  .masthead__menu .submenu {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    margin-left: 1em;
+  }
+  
+  .masthead__menu-item.has-submenu:hover .submenu,
+  .masthead__menu-item.has-submenu:focus-within .submenu {
+    display: block;
+  }
+  
+  .masthead__menu .submenu a {
+    padding: 0.5em 0;
+    border-bottom: 1px solid #565656;
+  }
+}
