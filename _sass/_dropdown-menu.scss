@@ -1,0 +1,106 @@
+/* ==========================================================================
+   DROPDOWN MENU STYLES
+   Custom styles for dropdown navigation menus in masthead
+   ========================================================================== */
+
+/* Hide submenu by default */
+.masthead__menu-item .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: $background-color; /* Use SCSS variable for dark theme background */
+  border: 1px solid $border-color; /* Use SCSS variable for border */
+  border-radius: $border-radius;
+  box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
+  z-index: 1000;
+  display: none;
+  padding: 5px 0;
+  margin-top: 0;
+  list-style: none;
+}
+
+/* Position parent item relatively to contain absolute submenu */
+.masthead__menu-item.has-submenu {
+  position: relative;
+}
+
+/* Show submenu on hover/focus */
+.masthead__menu-item.has-submenu:hover .submenu,
+.masthead__menu-item.has-submenu:focus-within .submenu {
+  display: block;
+}
+
+/* Style submenu links */
+.masthead__menu-item .submenu li {
+  display: block;
+  border-bottom: 1px solid $border-color;
+}
+
+.masthead__menu-item .submenu li:last-child {
+  border-bottom: none;
+}
+
+.masthead__menu-item .submenu a {
+  display: block;
+  padding: 10px 20px;
+  color: $text-color; /* Use SCSS variable for dark theme text color */
+  text-decoration: none;
+  font-size: $type-size-6;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin: 0; /* Override any inherited margin */
+}
+
+.masthead__menu-item .submenu a:hover,
+.masthead__menu-item .submenu a:focus {
+  background-color: mix(#000, $background-color, 30%); /* Darker hover background */
+  color: #ffffff;
+}
+
+/* Add dropdown indicator to parent items with children */
+.masthead__menu-item.has-submenu > a::after {
+  content: " ▼";
+  font-size: 0.7em;
+  margin-left: 0.5em;
+  opacity: 0.7;
+}
+
+/* Ensure dropdown works on mobile/tablet */
+@include breakpoint(max-width $large - 1px) {
+  .masthead__menu-item .submenu {
+    position: static;
+    display: none;
+    box-shadow: none;
+    border: none;
+    border-top: 1px solid $border-color;
+    background-color: mix(#000, $background-color, 30%);
+    margin-top: 0;
+  }
+  
+  .masthead__menu-item.has-submenu:hover .submenu,
+  .masthead__menu-item.has-submenu:focus-within .submenu {
+    display: block;
+  }
+  
+  .masthead__menu-item .submenu a {
+    padding: 8px 15px;
+    font-size: $type-size-7;
+  }
+}
+
+/* Accessibility improvements */
+.masthead__menu-item.has-submenu > a {
+  position: relative;
+}
+
+/* Focus management for keyboard navigation */
+.masthead__menu-item.has-submenu > a:focus + .submenu,
+.masthead__menu-item .submenu:hover {
+  display: block;
+}
+
+/* Ensure submenu stays visible when navigating with keyboard */
+.masthead__menu-item .submenu a:focus {
+  outline: 2px solid $primary-color; /* Primary color outline */
+  outline-offset: -2px;
+}
