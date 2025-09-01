@@ -8,6 +8,8 @@ main:
     url: /TryAgain/
   - title: "Refactor Games"
     url: /RefactorGames/
+  - title: "Projects"
+    url: /Projects/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
