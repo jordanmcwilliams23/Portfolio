@@ -21,7 +21,6 @@ Nuclear Family currently features 4 key locations: Blue House, Fire Station, Cul
 ## Designing the Layout
 <img src="../assets/images/Nuclear Family/NFLayoutDiagram.png" alt="Layout Diagram" style="float: left; margin: 0 0 1em 1em; width: 600px; height: 600px; border-radius: 10px;">
 The violet blocking volume indicates the playable bounds of the map. It generally follows the "Circle" map layout promoting action and movement for a Team Deathmatch map. Each section of the map has multiple paths to the other sections keeping players' options versatile while not being too open / vulnerable.
-<div style="clear: both;"></div>
-
 ### Wireframe
 <img src="../assets/images/Nuclear Family/NFWireframe.png" alt="NFWireframe" style="float: right; margin: 0 0 1em 1em; width: 600px; height: 600px; border-radius: 10px;">
+<div style="clear: both;"></div>
