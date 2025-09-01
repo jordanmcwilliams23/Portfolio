@@ -1,0 +1,138 @@
+/* ==========================================================================
+   MASTHEAD DROPDOWN NAVIGATION STYLES
+   For use with the Minimal Mistakes theme's dark skin
+   ========================================================================== */
+
+/* Parent menu items with submenus */
+.masthead__menu-item.has-submenu {
+  position: relative;
+}
+
+/* Add dropdown indicator arrow for parent items */
+.masthead__menu-item.has-submenu > a::after {
+  content: "▼";
+  font-size: 0.7em;
+  margin-left: 0.5em;
+  opacity: 0.6;
+  transition: transform 0.2s ease;
+}
+
+/* Rotate arrow on hover */
+.masthead__menu-item.has-submenu:hover > a::after {
+  transform: rotate(180deg);
+}
+
+/* Submenu dropdown */
+.masthead__menu-item .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #1a1f2a; /* Darker than dark skin background #252a34 */
+  border: 1px solid #3a4050; /* Slightly lighter border */
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, visibility 0.3s ease, transform 0.3s ease;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Show submenu on parent hover */
+.masthead__menu-item.has-submenu:hover .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Submenu list items */
+.masthead__menu-item .submenu li {
+  display: block;
+  border-bottom: 1px solid #3a4050;
+}
+
+.masthead__menu-item .submenu li:last-child {
+  border-bottom: none;
+}
+
+/* Submenu links */
+.masthead__menu-item .submenu li a {
+  display: block;
+  padding: 12px 16px;
+  color: #eaeaea; /* Dark skin text color */
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 0;
+  margin: 0;
+}
+
+/* First submenu item rounded top corners */
+.masthead__menu-item .submenu li:first-child a {
+  border-radius: 4px 4px 0 0;
+}
+
+/* Last submenu item rounded bottom corners */
+.masthead__menu-item .submenu li:last-child a {
+  border-radius: 0 0 4px 4px;
+}
+
+/* Submenu link hover state */
+.masthead__menu-item .submenu li a:hover,
+.masthead__menu-item .submenu li a:focus {
+  background-color: #00adb5; /* Dark skin primary color */
+  color: #ffffff;
+}
+
+/* Remove the bottom border animation from submenu links */
+.masthead__menu-item .submenu li a::before {
+  display: none;
+}
+
+/* Keep submenu visible when hovering over it */
+.masthead__menu-item .submenu:hover {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 767px) {
+  .masthead__menu-item .submenu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    background-color: transparent;
+    min-width: auto;
+  }
+  
+  .masthead__menu-item .submenu li a {
+    padding-left: 2em;
+    background-color: rgba(26, 31, 42, 0.9);
+    border-bottom: 1px solid #3a4050;
+  }
+  
+  .masthead__menu-item.has-submenu > a::after {
+    display: none;
+  }
+}
+
+/* Focus states for accessibility */
+.masthead__menu-item.has-submenu > a:focus + .submenu,
+.masthead__menu-item.has-submenu > a:focus ~ .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Ensure proper stacking order with other masthead elements */
+.masthead__menu-item.has-submenu {
+  z-index: 999;
+}
