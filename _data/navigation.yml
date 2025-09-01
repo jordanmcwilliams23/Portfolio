@@ -13,6 +13,17 @@ main:
     children:
     - title: "Nuclear Family"
       url: /Projects/NuclearFamily/
+    - title: "Game Project 2"
+      url: /Projects/GameProject2/
+    - title: "Web Development"
+      url: /Projects/WebDev/
+  - title: "More"
+    url: "#"
+    children:
+    - title: "Blog"
+      url: /Blog/
+    - title: "Contact"
+      url: /Contact/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
