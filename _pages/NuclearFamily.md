@@ -17,9 +17,10 @@ I've played first-person shooters for years now, ranging from CoD: Black Ops to 
 <img src="../assets/images/Nuclear Family/NFProgressGIF.gif" alt="Progress GIF" style="float: left; margin: 0 0 1em 1em; width: 600px; height: 600px; border-radius: 10px;">
 Nuclear Family currently features 4 key locations: Blue House, Fire Station, Cul-De-Sac, and the Playground. The rec-room of the Firestation and the backyard of the Blue house serve as spawnpoints for opposing teams, while the cul-de-sac and playground are middle ground sections that each team prioritizes dominating. To this end, the playground features a tower serving as a landmark and ideal vantage point, giving an advantage to the team that controls it, as well as a small tunnel underneath where ambushes can be made. The map supports play styles of all kinds from short to long range, with the playground for long range, the cul-de-sac for medium, and the blue house and fire station for close quarters combat.
 <div style="clear: both;"></div>
+
 ## Designing the Layout
-The violet blocking volume indicates the playable bounds of the map. It generally follows the "Circle" map layout promoting action and movement for a Team Deathmatch map. Each section of the map has multiple paths to the other sections keeping players' options versatile while not being too open / vulnerable.
 <img src="../assets/images/Nuclear Family/NFLayoutDiagram.png" alt="Layout Diagram" style="float: left; margin: 0 0 1em 1em; width: 600px; height: 600px; border-radius: 10px;">
+The violet blocking volume indicates the playable bounds of the map. It generally follows the "Circle" map layout promoting action and movement for a Team Deathmatch map. Each section of the map has multiple paths to the other sections keeping players' options versatile while not being too open / vulnerable.
 <div style="clear: both;"></div>
 
 ### Wireframe
