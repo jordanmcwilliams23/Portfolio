@@ -1,0 +1,134 @@
+---
+---
+/* ==========================================================================
+   MASTHEAD DROPDOWN NAVIGATION
+   ========================================================================== */
+
+/* Parent menu item styling for items with submenus */
+.masthead__menu-item.has-submenu {
+  position: relative;
+}
+
+.masthead__menu-item.has-submenu > a::after {
+  content: "\25BC"; /* Down arrow */
+  font-size: 0.7em;
+  margin-left: 0.5em;
+  color: inherit;
+  transition: transform 0.2s ease;
+}
+
+/* Submenu base styling */
+.masthead__menu-item .submenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background-color: #1a1f27; /* Darker than main background for contrast */
+  border: 1px solid #3a424d; /* Lighter border based on dark theme border */
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Submenu items */
+.masthead__menu-item .submenu li {
+  display: block;
+  border-bottom: 1px solid #3a424d;
+}
+
+.masthead__menu-item .submenu li:last-child {
+  border-bottom: none;
+}
+
+.masthead__menu-item .submenu li a {
+  display: block;
+  padding: 12px 16px;
+  color: #eaeaea; /* Text color from dark theme */
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s ease;
+  margin: 0;
+}
+
+.masthead__menu-item .submenu li a:hover,
+.masthead__menu-item .submenu li a:focus {
+  background-color: #00adb5; /* Primary color from dark theme */
+  color: #fff;
+}
+
+/* Show submenu on hover/focus */
+.masthead__menu-item.has-submenu:hover .submenu,
+.masthead__menu-item.has-submenu:focus-within .submenu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+/* Rotate arrow on hover */
+.masthead__menu-item.has-submenu:hover > a::after,
+.masthead__menu-item.has-submenu:focus-within > a::after {
+  transform: rotate(180deg);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .masthead__menu-item .submenu {
+    position: static;
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    background-color: transparent;
+    margin-left: 1rem;
+  }
+  
+  .masthead__menu-item .submenu li {
+    border-bottom: none;
+  }
+  
+  .masthead__menu-item .submenu li a {
+    padding: 8px 0;
+    color: #eaeaea;
+  }
+  
+  .masthead__menu-item .submenu li a:hover {
+    background-color: transparent;
+    color: #00adb5;
+  }
+  
+  .masthead__menu-item.has-submenu > a::after {
+    content: "\25B6"; /* Right arrow for mobile */
+  }
+  
+  .masthead__menu-item.has-submenu:hover > a::after,
+  .masthead__menu-item.has-submenu:focus-within > a::after {
+    transform: rotate(90deg);
+  }
+}
+
+/* Additional styling for better accessibility */
+.masthead__menu-item .submenu a:focus {
+  outline: 2px solid #00adb5;
+  outline-offset: -2px;
+}
+
+/* Ensure dropdown works with greedy nav hidden links */
+.greedy-nav .hidden-links .masthead__menu-item .submenu {
+  position: static;
+  opacity: 1;
+  visibility: visible;
+  transform: none;
+  box-shadow: none;
+  border: none;
+  background-color: transparent;
+  margin-left: 1rem;
+}
