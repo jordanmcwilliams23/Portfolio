@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Jordan McWilliams"
-  avatar           : "/assets/images/JordanMcWilliamsHeadshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/JordanMcWilliamsPortrait.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**Software Engineer**<br> 
                       **Unreal Engine Developer**<br>
                       **Indie Game Developer**"
