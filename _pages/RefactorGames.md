@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 # Journeyman
-*Fantasy MMORPG with Souls-like elements built in Unreal Engine 5.3*
+*Fantasy MMORPG with Souls-like elements built in Unreal Engine 5.3*<br>
 Role: Gameplay Engineer Intern
 <iframe src="https://store.steampowered.com/widget/2131360/" frameborder="0" width="646" height="190"></iframe>
 
